@@ -1,0 +1,5 @@
+# ~/.bashrc
+
+# Display different colors for different file extentions
+eval "$(dircolors)"
+
