@@ -21,9 +21,6 @@ alias fastping='ping -c 100 -s.2'
 
 alias update='sudo apt update && sudo apt upgrade'
 
-# Search history
-bind '"\e[1;5A":history-search-backward'
-bind '"\e[1;5B":history-search-forward'
 
 # Move cursor with ctrl + l/r
 bind '"\e[1;5C":forward-word'
