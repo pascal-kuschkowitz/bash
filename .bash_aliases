@@ -8,6 +8,12 @@ alias '...'='cd ../..'
 
 alias 'py3'='python3'
 
+# Copy to clipboard
+alias 'copy'='xclip -selection c'
+
+# Print images in terminal
+alias 'icat'='kitty +kitten icat'
+
 # Make dir & cd into dir
 mkcd ()
 {
@@ -20,7 +26,6 @@ alias ping='ping -c 5'
 alias fastping='ping -c 100 -s.2'
 
 alias update='sudo apt update && sudo apt upgrade'
-
 
 # Move cursor with ctrl + l/r
 bind '"\e[1;5C":forward-word'
