@@ -1,6 +1,8 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
-# for examples
+#######################################
+#
+# Appended .bashrc
+#
+#######################################
 
 # If not running interactively, don't do anything
 case $- in
@@ -126,9 +128,9 @@ export NVM_DIR="$HOME/.config/nvm"
 
 
 # Actually being able to use nvm because apt is fkn shit!
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm****
-. "$HOME/.cargo/env" 
+# export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+# [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm****
+# . "$HOME/.cargo/env" 
 
 # Use vim mode
 set -o vi
